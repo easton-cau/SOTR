@@ -1,2 +1,1 @@
-# SOTR
-SOTR: Segmenting Objects with Transformers
+# SOTR: Segmenting Objects with Transformers
