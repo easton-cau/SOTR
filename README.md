@@ -1,4 +1,4 @@
-# [ICCV 2021] SOTR: Segmenting Objects with Transformers
+# SOTR: Segmenting Objects with Transformers [ICCV 2021]
 By [Ruohao Guo](https://github.com/easton-cau), Dantong Niu, [Liao Qu](https://github.com/QuLiao1117), Zhenbo Li
 
 ## Introduction
