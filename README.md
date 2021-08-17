@@ -65,6 +65,9 @@ Thanks [Detectron2](https://github.com/facebookresearch/detectron2) and [AdelaiD
 
 The work is supported by National Key R&D Program of China (2020YFD0900204) and Key-Area Research and Development Program of Guangdong  Province China (2020B0202010009).
 
+## FAQ
+If you want to improve the usability or any piece of advice, please feel free to contant directly (ruohguo@foxmail.com).
+
 ## Citation
 
 Please consider citing our paper in your publications if the project helps your research. BibTeX reference is as follow.
