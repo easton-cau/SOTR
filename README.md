@@ -1,4 +1,4 @@
-# [ICCV 2021] SOTR: Segmenting Objects with Transformers
+# SOTR: Segmenting Objects with Transformers [ICCV 2021]
 By [Ruohao Guo](https://github.com/easton-cau), Dantong Niu, [Liao Qu](https://github.com/QuLiao1117), Zhenbo Li
 
 ## Introduction
@@ -45,7 +45,6 @@ python setup.py build develop
         --config-file configs/SOTR/R101.yaml \
         --eval-only \
         --num-gpus 4 \
-        OUTPUT_DIR work_dir/SOTR_R101 \
         MODEL.WEIGHTS work_dir/SOTR_R101/SOTR_R101.pth
     ```
 
@@ -57,7 +56,6 @@ python setup.py build develop
     python tools/train_net.py \
         --config-file configs/SOTR/R101.yaml \
         --num-gpus 4 \
-        OUTPUT_DIR work_dir/SOTR_R101
     ```
 
 
