@@ -3,7 +3,7 @@ By [Ruohao Guo](https://github.com/easton-cau), Dantong Niu, [Liao Qu](https://g
 
 ## Introduction
 
-This is the official implementation of  [SOTR](https://arxiv.org).
+This is the official implementation of  [SOTR](https://arxiv.org/abs/2108.06747).
 
 <img src="images/overview.png" alt="image" style="zoom:60%;" />
 
@@ -70,4 +70,15 @@ The work is supported by National Key R&D Program of China (2020YFD0900204) and 
 ## Citation
 
 Please consider citing our paper in your publications if the project helps your research. BibTeX reference is as follow.
+
+```
+@misc{guo2021sotr,
+      title={SOTR: Segmenting Objects with Transformers}, 
+      author={Ruohao Guo and Dantong Niu and Liao Qu and Zhenbo Li},
+      year={2021},
+      eprint={2108.06747},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
 
