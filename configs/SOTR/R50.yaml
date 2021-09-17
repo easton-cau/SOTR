@@ -1,0 +1,15 @@
+_BASE_: "Base-SOTR.yaml"
+MODEL:
+  WEIGHTS: "detectron2://ImageNetPretrained/MSRA/R-50.pkl"
+  RESNETS:
+    DEPTH: 50
+SOLVER:
+  STEPS: (210000, 250000)
+  MAX_ITER: 300000
+INPUT:
+  MIN_SIZE_TRAIN: (640, 672, 704, 736, 768, 800, 1024)
+  MAX_SIZE_TRAIN: 2048
+  MIN_SIZE_TEST: 1000
+  MASK_FORMAT: "bitmask"
+
+OUTPUT_DIR: "tools/output/SOTR_R50"
