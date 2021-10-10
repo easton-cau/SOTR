@@ -74,13 +74,12 @@ If you want to improve the usability or any piece of advice, please feel free to
 Please consider citing our paper in your publications if the project helps your research. BibTeX reference is as follow.
 
 ```
-@misc{guo2021sotr,
-      title={SOTR: Segmenting Objects with Transformers}, 
-      author={Ruohao Guo and Dantong Niu and Liao Qu and Zhenbo Li},
-      year={2021},
-      eprint={2108.06747},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@inproceedings{guo2021sotr,
+  title={SOTR: Segmenting Objects with Transformers},
+  author={Guo, Ruohao and Niu, Dantong and Qu, Liao and Li, Zhenbo},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={7157--7166},
+  year={2021}
 }
 ```
 
