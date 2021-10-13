@@ -19,7 +19,7 @@ Name |  mask AP | AP<sub>50</sub> | AP<sub>75</sub> | AP<sub>S</sub> | AP<sub>M<
 [SOTR_R101](configs/SOTR/R101.yaml) | 40.2 | 61.2 | 43.4 | 10.2 | 59.0 | 73.1 | [model](https://drive.google.com/file/d/1CzQTsvn9vxLnFkDJpIlitFXu1X_vw1dZ/view?usp=sharing)
 [SOTR_R101_DCN](configs/SOTR/R_101_DCN.yaml) | 42.0 | 63.3 | 45.5 | 11.4 | 60.7 | 74.5| [model](https://drive.google.com/file/d/19Dy6sXrwaNwGwNvuQyv5pZMWGM_at0ym/view?usp=sharing) 
 
-Note: The area of AP<sub>S</sub>, AP<sub>M</sub> and AP<sub>L</sub> are calculated by the area of the mask without bbox information.
+Note: The area of AP<sub>S</sub>, AP<sub>M</sub> and AP<sub>L</sub> are calculated by the area of the mask without using bbox information.
 
 ## Installation & Quick start
 
