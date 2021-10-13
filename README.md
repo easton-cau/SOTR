@@ -13,11 +13,13 @@ This is the official implementation of  [SOTR](https://arxiv.org/abs/2108.06747)
 
 ### COCO Instance Segmentation Baselines with SOTR
 
-Name |  mask AP | AP<sub>S</sub> | AP<sub>M</sub> | AP<sub>L</sub> | download
-:-- |:---:|:---:|:---:|:---:|:---:
-[SOTR_R50](configs/SOTR/R50.yaml) | 39.6 | 10.3 | 58.7 | 72.1 | [model](https://drive.google.com/file/d/1Aijh9VYy0Omjsz2ei-DfuncaBO0qbct7/view?usp=sharing)
-[SOTR_R101](configs/SOTR/R101.yaml) | 40.2 | 10.2 | 59.0 | 73.1 | [model](https://drive.google.com/file/d/1CzQTsvn9vxLnFkDJpIlitFXu1X_vw1dZ/view?usp=sharing)
-[SOTR_R101_DCN](configs/SOTR/R_101_DCN.yaml) | 42.0 | 11.4 | 60.7 | 74.5| [model](https://drive.google.com/file/d/19Dy6sXrwaNwGwNvuQyv5pZMWGM_at0ym/view?usp=sharing) 
+Name |  mask AP | AP<sub>50</sub> | AP<sub>75</sub> | AP<sub>S</sub> | AP<sub>M</sub> | AP<sub>L</sub> | download
+:-- |:---:|:---:|:---:|:---:|:---:|:---:|:---:
+[SOTR_R50](configs/SOTR/R50.yaml) | 39.6 | 60.7 | 42.6 | 10.3 | 58.7 | 72.1 | [model](https://drive.google.com/file/d/1Aijh9VYy0Omjsz2ei-DfuncaBO0qbct7/view?usp=sharing)
+[SOTR_R101](configs/SOTR/R101.yaml) | 40.2 | 61.2 | 43.4 | 10.2 | 59.0 | 73.1 | [model](https://drive.google.com/file/d/1CzQTsvn9vxLnFkDJpIlitFXu1X_vw1dZ/view?usp=sharing)
+[SOTR_R101_DCN](configs/SOTR/R_101_DCN.yaml) | 42.0 | 63.3 | 45.5 | 11.4 | 60.7 | 74.5| [model](https://drive.google.com/file/d/19Dy6sXrwaNwGwNvuQyv5pZMWGM_at0ym/view?usp=sharing) 
+
+Note: The area of AP<sub>S</sub>, AP<sub>M</sub> and AP<sub>L</sub> are calculated by the area of the mask without bbox information.
 
 ## Installation & Quick start
 
